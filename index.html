@@ -1,45 +1,387 @@
-<!-- LOOKS COUNTRY -->
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-<section class="looks" id="looks">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="section-title">
-        <p>INSPIRAÇÃO COUNTRY</p>
-        <h2>Looks Country</h2>
-    </div>
+    <meta
+        name="description"
+        content="Blog sobre tecnologia, interfaces digitais e desenvolvimento web."
+    >
 
-    <div class="look-grid">
+    <title>Conecta Web | Interfaces Digitais</title>
 
-        <div class="look">
-            <div class="look-image look1">
-                <span>COUNTRY CLÁSSICO</span>
-            </div>
-            <h3>Country Clássico</h3>
-            <p>Jeans, camisa xadrez, bota western e chapéu.</p>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="container cabecalho__conteudo">
+
+            <a href="#inicio" class="logo">
+                Conecta<span>Web</span>
+            </a>
+
+            <nav class="navegacao" id="navegacao">
+
+                <a href="#inicio">Início</a>
+                <a href="#postagens">Postagens</a>
+                <a href="#sobre">Sobre</a>
+
+            </nav>
+
+            <button
+                class="botao-tema"
+                id="botaoTema"
+                aria-label="Ativar tema escuro"
+            >
+                🌙
+            </button>
+
+            <button
+                class="menu-mobile"
+                id="menuMobile"
+                aria-label="Abrir menu"
+            >
+                ☰
+            </button>
+
         </div>
 
-        <div class="look">
-            <div class="look-image look2">
-                <span>RODEIO</span>
+    </header>
+
+
+    <main>
+
+        <!-- INÍCIO -->
+
+        <section class="inicio" id="inicio">
+
+            <div class="container inicio__conteudo">
+
+                <div class="inicio__texto">
+
+                    <span class="etiqueta">
+                        TECNOLOGIA E DESIGN
+                    </span>
+
+                    <h1>
+                        Aprenda a criar
+                        <strong>interfaces digitais</strong>
+                        melhores.
+                    </h1>
+
+                    <p>
+                        Descubra dicas, conceitos e boas práticas
+                        para desenvolver páginas web bonitas,
+                        funcionais e responsivas.
+                    </p>
+
+                    <a href="#postagens" class="botao">
+                        Ver postagens
+                    </a>
+
+                </div>
+
+                <div class="inicio__imagem">
+
+                    <div class="codigo-card">
+                        <span>&lt;/&gt;</span>
+
+                        <div class="linha-codigo"></div>
+                        <div class="linha-codigo linha-menor"></div>
+                        <div class="linha-codigo"></div>
+                        <div class="linha-codigo linha-media"></div>
+
+                    </div>
+
+                </div>
+
             </div>
-            <h3>Look de Rodeio</h3>
-            <p>Calça jeans, camisa country, cinto com fivela e bota.</p>
+
+        </section>
+
+
+        <!-- POSTAGENS -->
+
+        <section class="postagens" id="postagens">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <span>CONTEÚDO</span>
+
+                    <h2>
+                        Últimas postagens
+                    </h2>
+
+                    <p>
+                        Conteúdos para quem quer aprender
+                        desenvolvimento web.
+                    </p>
+
+                </div>
+
+
+                <div class="postagens__grid">
+
+
+                    <article class="postagem">
+
+                        <div class="postagem__imagem postagem__imagem--html">
+                            HTML
+                        </div>
+
+                        <div class="postagem__conteudo">
+
+                            <span class="categoria">
+                                HTML
+                            </span>
+
+                            <h3>
+                                A importância de uma boa estrutura HTML
+                            </h3>
+
+                            <p>
+                                Entenda como o HTML organiza os
+                                elementos de uma página e por que
+                                uma estrutura bem feita é importante.
+                            </p>
+
+                            <a href="#" class="link">
+                                Ler mais →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="postagem">
+
+                        <div class="postagem__imagem postagem__imagem--css">
+                            CSS
+                        </div>
+
+                        <div class="postagem__conteudo">
+
+                            <span class="categoria">
+                                CSS
+                            </span>
+
+                            <h3>
+                                Como deixar seu site mais bonito
+                            </h3>
+
+                            <p>
+                                Aprenda como cores, espaçamentos,
+                                fontes, sombras e outros recursos
+                                podem melhorar uma interface.
+                            </p>
+
+                            <a href="#" class="link">
+                                Ler mais →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="postagem">
+
+                        <div class="postagem__imagem postagem__imagem--responsivo">
+                            RESPONSIVO
+                        </div>
+
+                        <div class="postagem__conteudo">
+
+                            <span class="categoria">
+                                DESIGN
+                            </span>
+
+                            <h3>
+                                Por que criar páginas responsivas?
+                            </h3>
+
+                            <p>
+                                Veja como adaptar uma página para
+                                computadores, tablets e celulares
+                                usando CSS.
+                            </p>
+
+                            <a href="#" class="link">
+                                Ler mais →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="postagem">
+
+                        <div class="postagem__imagem postagem__imagem--interface">
+                            UI
+                        </div>
+
+                        <div class="postagem__conteudo">
+
+                            <span class="categoria">
+                                INTERFACE
+                            </span>
+
+                            <h3>
+                                O que torna uma interface agradável?
+                            </h3>
+
+                            <p>
+                                Conheça alguns princípios que ajudam
+                                a criar interfaces digitais simples
+                                e fáceis de utilizar.
+                            </p>
+
+                            <a href="#" class="link">
+                                Ler mais →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+
+        <section class="sobre" id="sobre">
+
+            <div class="container sobre__conteudo">
+
+                <div>
+
+                    <span class="etiqueta">
+                        SOBRE O PROJETO
+                    </span>
+
+                    <h2>
+                        Interfaces que aproximam pessoas
+                        e tecnologia.
+                    </h2>
+
+                </div>
+
+                <div>
+
+                    <p>
+                        O ConectaWeb é um projeto desenvolvido
+                        para demonstrar conceitos de criação de
+                        páginas web.
+                    </p>
+
+                    <p>
+                        O site utiliza HTML, CSS e JavaScript
+                        separados em arquivos independentes,
+                        além de recursos como responsividade,
+                        classes, temas, efeitos e sombras.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEWSLETTER -->
+
+        <section class="newsletter">
+
+            <div class="container newsletter__conteudo">
+
+                <h2>
+                    Receba novidades
+                </h2>
+
+                <p>
+                    Cadastre seu e-mail para acompanhar
+                    novos conteúdos.
+                </p>
+
+                <form id="formulario">
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+
+                    <button type="submit" class="botao">
+                        Cadastrar
+                    </button>
+
+                </form>
+
+                <p id="mensagem"></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer class="rodape">
+
+        <div class="container rodape__conteudo">
+
+            <div>
+
+                <a href="#inicio" class="logo logo--rodape">
+                    Conecta<span>Web</span>
+                </a>
+
+                <p>
+                    Aprendendo e compartilhando
+                    conhecimento sobre tecnologia.
+                </p>
+
+            </div>
+
+            <div class="rodape__links">
+
+                <a href="#inicio">Início</a>
+                <a href="#postagens">Postagens</a>
+                <a href="#sobre">Sobre</a>
+
+            </div>
+
         </div>
 
-        <div class="look">
-            <div class="look-image look3">
-                <span>COUNTRY FEMININO</span>
-            </div>
-            <h3>Country Feminino</h3>
-            <p>Vestido, bota western, cinto e chapéu country.</p>
+        <div class="rodape__copyright">
+
+            <p>
+                © 2026 ConectaWeb - Projeto educacional.
+            </p>
+
         </div>
 
-        <div class="look">
-            <div class="look-image look4">
-                <span>WESTERN</span>
-            </div>
-            <h3>Estilo Western</h3>
-            <p>Camisa jeans, calça flare, bota e acessórios de couro.</p>
-        </div>
+    </footer>
 
-    </div>
-</section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
