@@ -230,30 +230,23 @@ nav a:hover {
 
 .look1 {
     background-image:
-        url("https://images.unsplash.com/photo-1506629905607-d9a5e9e6d3d6?auto=format&fit=crop&w=700&q=80");
+        url("https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80");
 }
 
 .look2 {
     background-image:
-        url("https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80");
+        url("https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80");
 }
 
 .look3 {
     background-image:
-        url("https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=700&q=80");
+        url("https://images.unsplash.com/photo-1496217590455-aa63a8350eea?auto=format&fit=crop&w=800&q=80");
 }
 
 .look4 {
     background-image:
-        url("https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=700&q=80");
+        url("https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=800&q=80");
 }
-
-.look h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 23px;
-    margin-top: 15px;
-}
-
 .look p {
     color: #6e6259;
     margin-top: 5px;
