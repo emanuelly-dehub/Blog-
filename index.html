@@ -1,387 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta
-        name="description"
-        content="Blog sobre tecnologia, interfaces digitais e desenvolvimento web."
-    >
-
-    <title>Conecta Web | Interfaces Digitais</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estilo Country | Moda & Sertanejo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header class="cabecalho">
+  <header>
+    <h1>Estilo Country</h1>
+    <p>Seu guia de moda, botas e fivelas</p>
+  </header>
 
-        <div class="container cabecalho__conteudo">
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Tendências</a>
+    <a href="#">Calçados</a>
+    <a href="#">Sobre</a>
+  </nav>
 
-            <a href="#inicio" class="logo">
-                Conecta<span>Web</span>
-            </a>
-
-            <nav class="navegacao" id="navegacao">
-
-                <a href="#inicio">Início</a>
-                <a href="#postagens">Postagens</a>
-                <a href="#sobre">Sobre</a>
-
-            </nav>
-
-            <button
-                class="botao-tema"
-                id="botaoTema"
-                aria-label="Ativar tema escuro"
-            >
-                🌙
-            </button>
-
-            <button
-                class="menu-mobile"
-                id="menuMobile"
-                aria-label="Abrir menu"
-            >
-                ☰
-            </button>
-
-        </div>
-
-    </header>
-
-
+  <div class="container">
     <main>
-
-        <!-- INÍCIO -->
-
-        <section class="inicio" id="inicio">
-
-            <div class="container inicio__conteudo">
-
-                <div class="inicio__texto">
-
-                    <span class="etiqueta">
-                        TECNOLOGIA E DESIGN
-                    </span>
-
-                    <h1>
-                        Aprenda a criar
-                        <strong>interfaces digitais</strong>
-                        melhores.
-                    </h1>
-
-                    <p>
-                        Descubra dicas, conceitos e boas práticas
-                        para desenvolver páginas web bonitas,
-                        funcionais e responsivas.
-                    </p>
-
-                    <a href="#postagens" class="botao">
-                        Ver postagens
-                    </a>
-
-                </div>
-
-                <div class="inicio__imagem">
-
-                    <div class="codigo-card">
-                        <span>&lt;/&gt;</span>
-
-                        <div class="linha-codigo"></div>
-                        <div class="linha-codigo linha-menor"></div>
-                        <div class="linha-codigo"></div>
-                        <div class="linha-codigo linha-media"></div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- POSTAGENS -->
-
-        <section class="postagens" id="postagens">
-
-            <div class="container">
-
-                <div class="titulo-secao">
-
-                    <span>CONTEÚDO</span>
-
-                    <h2>
-                        Últimas postagens
-                    </h2>
-
-                    <p>
-                        Conteúdos para quem quer aprender
-                        desenvolvimento web.
-                    </p>
-
-                </div>
-
-
-                <div class="postagens__grid">
-
-
-                    <article class="postagem">
-
-                        <div class="postagem__imagem postagem__imagem--html">
-                            HTML
-                        </div>
-
-                        <div class="postagem__conteudo">
-
-                            <span class="categoria">
-                                HTML
-                            </span>
-
-                            <h3>
-                                A importância de uma boa estrutura HTML
-                            </h3>
-
-                            <p>
-                                Entenda como o HTML organiza os
-                                elementos de uma página e por que
-                                uma estrutura bem feita é importante.
-                            </p>
-
-                            <a href="#" class="link">
-                                Ler mais →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="postagem">
-
-                        <div class="postagem__imagem postagem__imagem--css">
-                            CSS
-                        </div>
-
-                        <div class="postagem__conteudo">
-
-                            <span class="categoria">
-                                CSS
-                            </span>
-
-                            <h3>
-                                Como deixar seu site mais bonito
-                            </h3>
-
-                            <p>
-                                Aprenda como cores, espaçamentos,
-                                fontes, sombras e outros recursos
-                                podem melhorar uma interface.
-                            </p>
-
-                            <a href="#" class="link">
-                                Ler mais →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="postagem">
-
-                        <div class="postagem__imagem postagem__imagem--responsivo">
-                            RESPONSIVO
-                        </div>
-
-                        <div class="postagem__conteudo">
-
-                            <span class="categoria">
-                                DESIGN
-                            </span>
-
-                            <h3>
-                                Por que criar páginas responsivas?
-                            </h3>
-
-                            <p>
-                                Veja como adaptar uma página para
-                                computadores, tablets e celulares
-                                usando CSS.
-                            </p>
-
-                            <a href="#" class="link">
-                                Ler mais →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="postagem">
-
-                        <div class="postagem__imagem postagem__imagem--interface">
-                            UI
-                        </div>
-
-                        <div class="postagem__conteudo">
-
-                            <span class="categoria">
-                                INTERFACE
-                            </span>
-
-                            <h3>
-                                O que torna uma interface agradável?
-                            </h3>
-
-                            <p>
-                                Conheça alguns princípios que ajudam
-                                a criar interfaces digitais simples
-                                e fáceis de utilizar.
-                            </p>
-
-                            <a href="#" class="link">
-                                Ler mais →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- SOBRE -->
-
-        <section class="sobre" id="sobre">
-
-            <div class="container sobre__conteudo">
-
-                <div>
-
-                    <span class="etiqueta">
-                        SOBRE O PROJETO
-                    </span>
-
-                    <h2>
-                        Interfaces que aproximam pessoas
-                        e tecnologia.
-                    </h2>
-
-                </div>
-
-                <div>
-
-                    <p>
-                        O ConectaWeb é um projeto desenvolvido
-                        para demonstrar conceitos de criação de
-                        páginas web.
-                    </p>
-
-                    <p>
-                        O site utiliza HTML, CSS e JavaScript
-                        separados em arquivos independentes,
-                        além de recursos como responsividade,
-                        classes, temas, efeitos e sombras.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- NEWSLETTER -->
-
-        <section class="newsletter">
-
-            <div class="container newsletter__conteudo">
-
-                <h2>
-                    Receba novidades
-                </h2>
-
-                <p>
-                    Cadastre seu e-mail para acompanhar
-                    novos conteúdos.
-                </p>
-
-                <form id="formulario">
-
-                    <input
-                        type="email"
-                        id="email"
-                        placeholder="Digite seu e-mail"
-                        required
-                    >
-
-                    <button type="submit" class="botao">
-                        Cadastrar
-                    </button>
-
-                </form>
-
-                <p id="mensagem"></p>
-
-            </div>
-
-        </section>
-
+      <article class="post">
+        <h2>Como Escolhar a Bota Country Ideal</h2>
+        <span class="data">Publicado em 10 de Outubro</span>
+        <p>As botas são o coração de qualquer look country. Seja de bico fino ou quadrado, o importante é combinar o couro com o seu estilo pessoal...</p>
+        <button onclick="curtirPost(this)">❤️ <span class="likes">0</span> Curtidas</button>
+      </article>
+
+      <article class="post">
+        <h2>5 Acessórios Indispensáveis no Look Sertanejo</h2>
+        <span class="data">Publicado em 5 de Outubro</span>
+        <p>Cintos com fivelas trabalhadas, chapéus de feltro e lenços trazem autenticidade e transformam qualquer visual básico em algo marcante...</p>
+        <button onclick="curtirPost(this)">❤️ <span class="likes">0</span> Curtidas</button>
+      </article>
     </main>
 
+    <aside>
+      <h3>Sobre o Blog</h3>
+      <p>Dicas diárias sobre o mundo country, moda agro e tendências dos grandes festivais.</p>
+    </aside>
+  </div>
 
-    <!-- RODAPÉ -->
+  <footer>
+    <p>&copy; 2026 Blog Estilo Country - Todos os direitos reservados.</p>
+  </footer>
 
-    <footer class="rodape">
-
-        <div class="container rodape__conteudo">
-
-            <div>
-
-                <a href="#inicio" class="logo logo--rodape">
-                    Conecta<span>Web</span>
-                </a>
-
-                <p>
-                    Aprendendo e compartilhando
-                    conhecimento sobre tecnologia.
-                </p>
-
-            </div>
-
-            <div class="rodape__links">
-
-                <a href="#inicio">Início</a>
-                <a href="#postagens">Postagens</a>
-                <a href="#sobre">Sobre</a>
-
-            </div>
-
-        </div>
-
-        <div class="rodape__copyright">
-
-            <p>
-                © 2026 ConectaWeb - Projeto educacional.
-            </p>
-
-        </div>
-
-    </footer>
-
-
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
