@@ -1,38 +1,20 @@
-# ConectaWeb
+# 🤠 Blog Estilo Country
 
-## Página Web: Aprimorando Interfaces Digitais
-
-Projeto desenvolvido como atividade de desenvolvimento web,
-utilizando conceitos de HTML, CSS e JavaScript.
+Um layout de blog simples e responsivo focado em moda country e sertaneja, desenvolvido com HTML5, CSS3 e JavaScript puro.
 
 ---
 
-## Sobre o projeto
+## 🛠️ Tecnologias Utilizadas
 
-O ConectaWeb é uma página web voltada para conteúdos sobre
-tecnologia, desenvolvimento web e criação de interfaces digitais.
-
-O projeto foi desenvolvido com o objetivo de aplicar conceitos
-aprendidos durante as aulas, como organização do código,
-arquivos independentes, classes, responsividade, cores,
-temas, tema escuro, efeitos e sombras.
+* **HTML5:** Estruturação semântica do conteúdo.
+* **CSS3:** Estilização visual com paleta de cores terrosas e layout flexível (Flexbox).
+* **JavaScript (ES6):** Interatividade para o sistema de curtidas dos posts.
 
 ---
 
-## Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-
----
-
-## Estrutura do projeto
+## 📁 Estrutura do Projeto
 
 ```text
-ConectaWeb/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+├── index.html   # Estrutura e conteúdo principal do blog
+├── style.css    # Estilos e identidade visual
+└── script.js    # Lógica do contador de curtidas
