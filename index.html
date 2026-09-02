@@ -4,47 +4,109 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estilo Country | Moda & Sertanejo</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Estilo Country</h1>
-    <p>Seu guia de moda, botas e fivelas</p>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Estilo Country</h1>
+      <p>Seu portal definitivo de moda, botas, fivelas e tendência sertaneja</p>
+    </div>
   </header>
 
-  <nav>
-    <a href="#">Início</a>
-    <a href="#">Tendências</a>
-    <a href="#">Calçados</a>
-    <a href="#">Sobre</a>
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="#inicio">Início</a>
+      <a href="#tendencias">Tendências</a>
+      <a href="#calcados">Calçados</a>
+      <a href="#acessorios">Acessórios</a>
+    </div>
   </nav>
 
   <div class="container">
-    <main>
-      <article class="post">
-        <h2>Como Escolhar a Bota Country Ideal</h2>
-        <span class="data">Publicado em 10 de Outubro</span>
-        <p>As botas são o coração de qualquer look country. Seja de bico fino ou quadrado, o importante é combinar o couro com o seu estilo pessoal...</p>
-        <button onclick="curtirPost(this)">❤️ <span class="likes">0</span> Curtidas</button>
+    
+    <main class="feed">
+      
+      <article class="card-post">
+        <div class="post-img-placeholder">🤠 Guia de Botas</div>
+        <div class="post-content">
+          <span class="categoria">Calçados</span>
+          <h2 class="post-titulo">Como Escolher a Bota Country Ideal para Cada Ocasião</h2>
+          <span class="data">Publicado em 10 de Outubro de 2026</span>
+          <p class="post-resumo">As botas são o coração de qualquer visual sertanejo. Seja o modelo de bico quadrado para a lida diária ou o bico fino para grandes rodeios e shows, saiba qual material e acabamento combinam com a sua rotina...</p>
+          <div class="post-footer">
+            <button class="btn-like" onclick="curtirPost(this)">
+              ❤️ <span class="likes">12</span> Curtidas
+            </button>
+          </div>
+        </div>
       </article>
 
-      <article class="post">
-        <h2>5 Acessórios Indispensáveis no Look Sertanejo</h2>
-        <span class="data">Publicado em 5 de Outubro</span>
-        <p>Cintos com fivelas trabalhadas, chapéus de feltro e lenços trazem autenticidade e transformam qualquer visual básico em algo marcante...</p>
-        <button onclick="curtirPost(this)">❤️ <span class="likes">0</span> Curtidas</button>
+      <article class="card-post">
+        <div class="post-img-placeholder">✨ Fivelas & Chapéus</div>
+        <div class="post-content">
+          <span class="categoria">Acessórios</span>
+          <h2 class="post-titulo">5 Acessórios Indispensáveis no Look Sertanejo Moderno</h2>
+          <span class="data">Publicado em 05 de Outubro de 2026</span>
+          <p class="post-resumo">Cintos com fivelas trabalhadas em relevo, chapéus de feltro ou palha e lenços de seda trazem autenticidade. Descubra como equilibrar peças chamativas mantendo a elegância do estilo rústico...</p>
+          <div class="post-footer">
+            <button class="btn-like" onclick="curtirPost(this)">
+              ❤️ <span class="likes">25</span> Curtidas
+            </button>
+          </div>
+        </div>
       </article>
+
+      <article class="card-post">
+        <div class="post-img-placeholder">👗 Moda Feminina</div>
+        <div class="post-content">
+          <span class="categoria">Tendências</span>
+          <h2 class="post-titulo">Tendências da Moda Country Feminina para a Temporada de Festivais</h2>
+          <span class="data">Publicado em 01 de Outubro de 2026</span>
+          <p class="post-resumo">Franjas, jaquetas de couro com aplicação de tachas, saias jeans e vestidos florais românticos dominam as arenas. Veja como compor camadas cheias de personalidade...</p>
+          <div class="post-footer">
+            <button class="btn-like" onclick="curtirPost(this)">
+              ❤️ <span class="likes">41</span> Curtidas
+            </button>
+          </div>
+        </div>
+      </article>
+
     </main>
 
-    <aside>
-      <h3>Sobre o Blog</h3>
-      <p>Dicas diárias sobre o mundo country, moda agro e tendências dos grandes festivais.</p>
+    <aside class="sidebar">
+      
+      <div class="widget">
+        <h3>Pesquisar</h3>
+        <input type="text" id="campo-busca" placeholder="Filtrar por título..." onkeyup="filtrarPosts()">
+      </div>
+
+      <div class="widget">
+        <h3>Sobre o Blog</h3>
+        <p>O <strong>Estilo Country</strong> é um espaço focado em cultura, vestuário, couro e acessórios da moda agro e sertaneja.</p>
+      </div>
+
+      <div class="widget">
+        <h3>Destaques</h3>
+        <ul class="lista-populares">
+          <li> Cuidados essenciais com botas de couro</li>
+          <li> Como moldar a aba do seu chapéu</li>
+          <li> Combinações de xadrez para o dia a dia</li>
+        </ul>
+      </div>
+
     </aside>
+
   </div>
 
   <footer>
-    <p>&copy; 2026 Blog Estilo Country - Todos os direitos reservados.</p>
+    <p>&copy; 2026 Blog Estilo Country. Todos os direitos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
