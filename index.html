@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estilo Country | Moda & Sertanejo</title>
+  <title>Estilo Country | Moda, Lojas & Sertanejo</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,28 +13,33 @@
 </head>
 <body>
 
+  <!-- Cabeçalho -->
   <header class="hero">
     <div class="hero-content">
       <h1>Estilo Country</h1>
-      <p>Seu portal definitivo de moda, botas, fivelas e tendência sertaneja</p>
+      <p>Seu portal de moda sertaneja, tendências e guia de lojas</p>
     </div>
   </header>
 
+  <!-- Navegação -->
   <nav class="navbar">
     <div class="nav-links">
       <a href="#inicio">Início</a>
       <a href="#tendencias">Tendências</a>
-      <a href="#calcados">Calçados</a>
-      <a href="#acessorios">Acessórios</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#lojas-cascavel">Lojas em Cascavel</a>
     </div>
   </nav>
 
+  <!-- Conteúdo Principal -->
   <div class="container">
     
+    <!-- Feed de Artigos -->
     <main class="feed">
       
+      <!-- Post 1 -->
       <article class="card-post">
-        <div class="post-img-placeholder">🤠 Guia de Botas</div>
+        <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80" alt="Bota Country de Couro" class="post-img">
         <div class="post-content">
           <span class="categoria">Calçados</span>
           <h2 class="post-titulo">Como Escolher a Bota Country Ideal para Cada Ocasião</h2>
@@ -48,31 +53,42 @@
         </div>
       </article>
 
-      <article class="card-post">
-        <div class="post-img-placeholder">✨ Fivelas & Chapéus</div>
+      <!-- Post 2: Vídeo Integrado -->
+      <article class="card-post" id="videos">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo de Moda Country" frameborder="0" allowfullscreen></iframe>
+        </div>
         <div class="post-content">
-          <span class="categoria">Acessórios</span>
-          <h2 class="post-titulo">5 Acessórios Indispensáveis no Look Sertanejo Moderno</h2>
+          <span class="categoria">Vídeo & Dicas</span>
+          <h2 class="post-titulo">Dicas de Acessórios: Fivelas, Chapéus e Cintos</h2>
           <span class="data">Publicado em 05 de Outubro de 2026</span>
-          <p class="post-resumo">Cintos com fivelas trabalhadas em relevo, chapéus de feltro ou palha e lenços de seda trazem autenticidade. Descubra como equilibrar peças chamativas mantendo a elegância do estilo rústico...</p>
+          <p class="post-resumo">Confira no vídeo acima como combinar cintos de fivela larga com chapéus de feltro e palha para criar looks autênticos para rodeios e eventos sertanejos.</p>
           <div class="post-footer">
             <button class="btn-like" onclick="curtirPost(this)">
-              ❤️ <span class="likes">25</span> Curtidas
+              ❤️ <span class="likes">28</span> Curtidas
             </button>
           </div>
         </div>
       </article>
 
-      <article class="card-post">
-        <div class="post-img-placeholder">👗 Moda Feminina</div>
+      <!-- Post 3: Guia de Lojas em Cascavel - PR -->
+      <article class="card-post" id="lojas-cascavel">
+        <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=800&q=80" alt="Loja de Roupas em Couro" class="post-img">
         <div class="post-content">
-          <span class="categoria">Tendências</span>
-          <h2 class="post-titulo">Tendências da Moda Country Feminina para a Temporada de Festivais</h2>
+          <span class="categoria">Guia Local</span>
+          <h2 class="post-titulo">Onde Comprar Moda Country em Cascavel - PR</h2>
           <span class="data">Publicado em 01 de Outubro de 2026</span>
-          <p class="post-resumo">Franjas, jaquetas de couro com aplicação de tachas, saias jeans e vestidos florais românticos dominam as arenas. Veja como compor camadas cheias de personalidade...</p>
+          <p class="post-resumo">Procurando botas, selaria, chapéus e vestuário agro em Cascavel? Confira as principais referências da cidade para renovar seu guarda-roupa country:</p>
+          
+          <ul class="lista-lojas">
+            <li><strong>Cascavel Country:</strong> Referência em botas de couro, botinas de lida, cintos e fivelas importadas.</li>
+            <li><strong>Selaria & Moda Agro Cascavel:</strong> Especializada em vestuário para montaria, arreios e camisas xadrez masculinas e femininas.</li>
+            <li><strong>Mundo Sertanejo:</strong> Moda country completa para grandes eventos, com variedade em jaquetas de couro e chapéus de palha e feltro.</li>
+          </ul>
+
           <div class="post-footer">
             <button class="btn-like" onclick="curtirPost(this)">
-              ❤️ <span class="likes">41</span> Curtidas
+              ❤️ <span class="likes">45</span> Curtidas
             </button>
           </div>
         </div>
@@ -80,24 +96,25 @@
 
     </main>
 
+    <!-- Barra Lateral -->
     <aside class="sidebar">
       
       <div class="widget">
         <h3>Pesquisar</h3>
-        <input type="text" id="campo-busca" placeholder="Filtrar por título..." onkeyup="filtrarPosts()">
+        <input type="text" id="campo-busca" placeholder="Filtrar artigos..." onkeyup="filtrarPosts()">
       </div>
 
       <div class="widget">
         <h3>Sobre o Blog</h3>
-        <p>O <strong>Estilo Country</strong> é um espaço focado em cultura, vestuário, couro e acessórios da moda agro e sertaneja.</p>
+        <p>O <strong>Estilo Country</strong> é seu guia de cultura, vestuário, botas de couro e recomendações de lojas no Paraná.</p>
       </div>
 
       <div class="widget">
-        <h3>Destaques</h3>
+        <h3>Lojas em Destaque</h3>
         <ul class="lista-populares">
-          <li> Cuidados essenciais com botas de couro</li>
-          <li> Como moldar a aba do seu chapéu</li>
-          <li> Combinações de xadrez para o dia a dia</li>
+          <li> Cascavel Country - Centro</li>
+          <li> Selaria Agro - Parque Verde</li>
+          <li> Mundo Sertanejo - São Cristóvão</li>
         </ul>
       </div>
 
