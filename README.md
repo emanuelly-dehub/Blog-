@@ -1,6 +1,6 @@
-# 🤠 Blog Estilo Country & Sertanejo
+# 🤠 Blog Estilo Country & Guia de Lojas (Cascavel - PR)
 
-Uma aplicação web completa, responsiva e elegante voltada para o universo da moda country, artigos em couro, fivelas, chapéus e tendências sertanejas. Desenvolvido com **HTML5 Semântico**, **CSS3 (Variáveis CSS e Flexbox)** e **JavaScript Vanilla**.
+Aplicação web responsiva e interativa focada em moda country, boots de couro, tendências sertanejas, vídeos de dicas e um guia de lojas físicas em **Cascavel - PR**. Desenvolvido com **HTML5 Semântico**, **CSS3** e **JavaScript Vanilla**.
 
 ---
 
@@ -9,52 +9,49 @@ Uma aplicação web completa, responsiva e elegante voltada para o universo da m
 - [Visão Geral](#-visão-geral)
 - [Funcionalidades](#-funcionalidades)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Estrutura de Arquivos](#-estrutura-de-arquivos)
 - [Como Executar o Projeto](#-como-executar-o-projeto)
-- [Personalização](#-personalização)
 - [Licença](#-licença)
 
 ---
 
 ## 👁️ Visão Geral
 
-O projeto adota um design temático utilizando uma paleta de cores terrosas (tons de marrom, bege e couro), entregando uma experiência rústica e moderna ao mesmo tempo. 
+O projeto apresenta uma interface completa com identidade visual voltada para o universo sertanejo e agro:
 
-### Componentes da Tela:
-* **Hero Banner:** Cabeçalho com tipografia marcante (`Cinzel`).
-* **Menu de Navegação:** Barra fixa com links rápidos.
-* **Feed de Artigos:** Lista de posts estilizados em cards com botão de interação.
-* **Barra Lateral (Sidebar):** Busca em tempo real, apresentação do blog e tópicos em destaque.
-* **Rodapé:** Informações de direitos autorais.
+* **Hero Banner:** Imagem de fundo temática com degradê escuro e tipografia `Cinzel`.
+* **Mídia Incorporada:** Suporte nativo a imagens em alta definição e players de vídeo do YouTube responsivos.
+* **Guia de Lojas Locais:** Seção dedicada com recomendações de estabelecimentos de moda country em Cascavel - PR.
+* **Sidebar Dinâmica:** Campo de pesquisa inteligente por palavra-chave e atalhos rápidos.
 
 ---
 
 ## ✨ Funcionalidades
 
-* **Layout 100% Responsivo:** Transição fluida entre telas de computadores, tablets e smartphones.
-* **Sistema de Curtidas:** Botão interativo que incrementa o número de curtidas em cada publicação individualmente.
-* **Filtro de Busca em Tempo Real:** Campo de pesquisa na barra lateral que oculta ou exibe os artigos instantaneamente de acordo com o título digitado.
-* **Variáveis CSS Nativa:** Facilidade total para alterar a paleta de cores global.
+* **Suporte a Vídeo Responsivo:** Container CSS formatado em proporção 16:9 para vídeos do YouTube.
+* **Pesquisa Global no Feed:** Filtro em JavaScript que verifica títulos e conteúdos dos posts em tempo real.
+* **Contador de Curtidas com Animação:** Feedback de clique dinâmico usando manipulação do DOM.
+* **Design Terroso Otimizado:** Construído com variáveis CSS para fácil customização da paleta de cores.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-| Tecnologia | Finalidade |
+| Tecnologia | Função no Projeto |
 | :--- | :--- |
-| **HTML5** | Estruturação semântica do conteúdo (`<header>`, `<nav>`, `<article>`, `<aside>`, `<footer>`). |
-| **CSS3** | Estilização avançada com Flexbox, sombras, efeitos de hover e tipografia personalizada. |
-| **JavaScript (ES6+)** | Lógica de manipulação do DOM para o contador de curtidas e sistema de busca. |
-| **Google Fonts** | Fontes *Cinzel* (para títulos) e *Montserrat* (para o corpo do texto). |
+| **HTML5** | Estruturação semântica da aplicação e suporte a `<iframe>`. |
+| **CSS3** | Layout com Flexbox, regras de mídia para vídeos e variáveis de estilo. |
+| **JavaScript (ES6+)** | Lógica da barra de busca e manipulador do evento de curtidas. |
+| **Google Fonts** | Fontes *Cinzel* e *Montserrat*. |
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura de Arquivos
 
 ```text
 blog-estilo-country/
 │
-├── index.html       # Estrutura principal da página
-├── style.css        # Estilos gerais e variáveis visuais
-├── script.js       # Interatividade (curtidas e busca)
-└── README.md        # Documentação do projeto
+├── index.html       # Estrutura do blog, posts, vídeos e guia de lojas
+├── style.css        # Estilos globais, player responsivo e paleta terrosa
+├── script.js        # Regras de busca dinâmica e interação de curtidas
+└── README.md        # Documentação completa
